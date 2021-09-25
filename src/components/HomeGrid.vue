@@ -1,4 +1,5 @@
 <template>
+  <h1 class="text-center text-3xl text-gray-900 font-bold">Live Anywhere</h1>
   <div
     class="
         p-10
@@ -68,9 +69,7 @@
 <script></script>
 
 <style scoped>
-
 h1 {
   padding-top: 1rem;
 }
-
 </style>

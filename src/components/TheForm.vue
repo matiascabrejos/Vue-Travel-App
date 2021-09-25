@@ -24,7 +24,7 @@
               class="uppercase tracking-wide text-black text-xs font-bold mb-2"
               for="title"
             >
-              Check-In - Checkout*
+              Check-In / Check-Out*
             </label>
             <input
               class="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3"

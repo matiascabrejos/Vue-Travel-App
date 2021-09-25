@@ -1,1 +1,83 @@
+<template>
+<h1 class="text-center text-3xl text-gray-900 font-bold">Places To Stay</h1>
+  <div
+    class="
+        p-10
+        grid grid-cols-1
+        sm:grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        xl:grid-cols-4
+                xl:gap-5
+        md:gap-5
+        lg:gap-5
+        gap-28
+      "
+  >
+    <div
+      v-for="home in Homes"
+      :key="home.id"
+      class="
+          border-2 border-white
+          px-4
+          py-0
+          rounded-lg
+          transform
+          transition
+          duration-500
+          hover:scale-105
+          text-center
+          mb-6
+         
+          
+        "
+    >
+      <img
+        :src="home.images"
+        alt=""
+        class="rounded-lg inset-0 h-full md:h-3/4 sm:h-3/4 w-full object-cover"
+      />
+      <div class="flex pt-4 justify-center">
+        <img src="../../public/marker.svg" class="img-icon" />
+        <h2 class="pl-1">
+          {{ home.location.city }}, {{ home.location.state }}
+        </h2>
+      </div>
+      <h2>
+        {{ home.title }}
+      </h2>
+      <h2>
+        {{ home.guests }} guests · {{ home.bedrooms }} bedrooms ·
+        {{ home.beds }} beds · {{ home.bathrooms }} bathrooms
+      </h2>
+      <h2>${{ home.pricePerNight }}/night</h2>
+      <div class="mx-auto"></div>
+      <div class="flex justify-center">
+        <img src="../../public/star.svg" class="img-icon" />
+        <h2 class="pl-1">
+          {{ home.reviewValue }}
+          ({{ home.reviewCount }} reviews)
+        </h2>
+      </div>
+    </div>
+  </div>
+</template>
 
+<script>
+import Homes from '../../public/homes.json'
+
+export default {
+  data() {
+    return {
+      Homes,
+    }
+  },
+}
+</script>
+
+<style scoped>
+.img-icon {
+  width: 20px;
+  height: 20px;
+}
+</style>

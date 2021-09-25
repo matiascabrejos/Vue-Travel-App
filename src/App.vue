@@ -1,18 +1,16 @@
 <template>
-  <!-- <the-home></the-home> -->
-  <main-section></main-section>
-<!--   <home-grid></home-grid>
-  <test></test> -->
+  <the-navbar></the-navbar>
+  <router-view></router-view>
 </template>
 
 <script>
 import HomeGrid from './components/HomeGrid.vue'
 import TheHome from './pages/TheHome.vue'
-import Test from './pages/Test.vue'
+import HomeCard from './components/HomeCard.vue'
 
 export default {
   components: TheHome,
-  Test,
+  HomeCard,
   HomeGrid,
 }
 </script>
