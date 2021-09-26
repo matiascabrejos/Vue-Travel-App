@@ -1,7 +1,9 @@
 <template>
-  <the-background></the-background>
-  <home-grid></home-grid>
-  <home-card></home-card>
+  <div>
+    <the-background></the-background>
+    <home-grid></home-grid>
+    <home-card></home-card>
+  </div>
 </template>
 
 <script>

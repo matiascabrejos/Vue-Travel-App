@@ -1,14 +1,14 @@
 <template>
-<h1 class="text-center text-3xl text-gray-900 font-bold">Places To Stay</h1>
+  <h1 class="text-center text-3xl text-gray-900 font-bold">Places To Stay</h1>
   <div
     class="
         p-10
         grid grid-cols-1
         sm:grid-cols-1
         md:grid-cols-2
-        lg:grid-cols-3
+        lg:grid-cols-2
         xl:grid-cols-4
-                xl:gap-5
+        xl:gap-5
         md:gap-5
         lg:gap-5
         gap-28
@@ -27,7 +27,7 @@
           duration-500
           hover:scale-105
           text-center
-          mb-6
+          mb-16
          
           
         "
@@ -52,7 +52,7 @@
       </h2>
       <h2>${{ home.pricePerNight }}/night</h2>
       <div class="mx-auto"></div>
-      <div class="flex justify-center">
+      <div class="flex justify-center pb-6">
         <img src="../../public/star.svg" class="img-icon" />
         <h2 class="pl-1">
           {{ home.reviewValue }}

@@ -37,17 +37,23 @@
         :class="open ? 'block' : 'hidden'"
         class="w-full flex-grow sm:flex sm:items-center sm:w-auto"
       >
-        <div class="text-sm sm:flex-grow">
+        <div class="text-base sm:flex-grow">
           <router-link to="/home"
-            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-pink-600 mr-4"
+            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-emerald-400 mr-4"
           >
             Home
           </router-link>
           <router-link
             to="/checkin"
-            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4"
+            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-emerald-400 mr-4"
           >
             Check-In
+          </router-link>
+                    <router-link
+            to="/host"
+            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-emerald-400 mr-4"
+          >
+            Host
           </router-link>
         </div>
         <div></div>
@@ -70,3 +76,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+a.active {
+  @apply text-emerald-400;
+}
+</style>

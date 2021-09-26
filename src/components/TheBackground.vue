@@ -1,6 +1,6 @@
 <template>
   <section
-    class="py-60 text-center bg-cover bg-center "
+    class="py-44 text-center bg-cover bg-center"
     style="background-image: url(https://eleconomista.com.ar/wp-content/uploads/2019/06/airbnb_luxe_announcement.0.jpg)"
   >
     <div class="bottom-24 relative">
@@ -13,6 +13,16 @@
         class="btn-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline bg-white text-gray-900 hover:bg-gray-900 hover:text-white text-lg font-bold py-2 px-4 mr-1 rounded"
       >
         Check-In
+      </button>
+            <h1 class="text-5xl font-bold mb-6 bg-clip-text text-white pt-2">
+        Become A Host
+      </h1>
+            <button
+        @click="$router.push('host')"
+        type="button"
+        class="btn-primary transition duration-300 ease-in-out focus:outline-none focus:shadow-outline border-2 bg-transparent text-white hover:bg-gray-900 hover:text-white text-lg font-bold py-2 px-4 mr-1 rounded"
+      >
+        Host
       </button>
     </div>
   </section>
