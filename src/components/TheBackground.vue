@@ -3,7 +3,7 @@
     class="py-44 text-center bg-cover bg-center"
     style="background-image: url(https://eleconomista.com.ar/wp-content/uploads/2019/06/airbnb_luxe_announcement.0.jpg)"
   >
-    <div class="bottom-24 relative">
+    <div class="bottom-6 relative">
       <h1 class="text-5xl font-bold mb-6 bg-clip-text text-gray-900">
         Book Your Next Trip
       </h1>

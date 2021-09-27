@@ -13,15 +13,17 @@
         lg:gap-5
         gap-14
         text-center
+        text-gray-900
+        font-bold
       "
   >
-    <div class="padding">
+    <div>
       <img
         src="../../public/images/1.jpg"
         alt=""
         class="rounded-lg inset-0 h-full md:h-3/4 sm:h-3/4 w-full object-cover"
       />
-      <h1 class="text-responsive">Florence, Italy</h1>
+      <h1>Florence, Italy</h1>
     </div>
     <div>
       <img

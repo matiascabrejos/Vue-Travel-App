@@ -55,6 +55,12 @@
           >
             Host
           </router-link>
+                              <router-link
+            to="/aboutus"
+            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-emerald-400 mr-4"
+          >
+            About Us
+          </router-link>
         </div>
         <div></div>
       </div>

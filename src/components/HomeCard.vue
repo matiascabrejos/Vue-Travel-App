@@ -12,6 +12,7 @@
         md:gap-5
         lg:gap-5
         gap-28
+        text-gray-900
       "
   >
     <div
@@ -24,10 +25,12 @@
           rounded-lg
           transform
           transition
-          duration-500
+          duration-100
           hover:scale-105
           text-center
-          mb-16
+          mb-32
+          lg:mb-20
+          md:mb-20
          
           
         "
@@ -39,7 +42,7 @@
       />
       <div class="flex pt-4 justify-center">
         <img src="../../public/marker.svg" class="img-icon" />
-        <h2 class="pl-1">
+        <h2 class="pl-1 font-medium">
           {{ home.location.city }}, {{ home.location.state }}
         </h2>
       </div>
@@ -50,7 +53,7 @@
         {{ home.guests }} guests · {{ home.bedrooms }} bedrooms ·
         {{ home.beds }} beds · {{ home.bathrooms }} bathrooms
       </h2>
-      <h2>${{ home.pricePerNight }}/night</h2>
+      <h2 class="font-medium">${{ home.pricePerNight }}/night</h2>
       <div class="mx-auto"></div>
       <div class="flex justify-center pb-6">
         <img src="../../public/star.svg" class="img-icon" />
