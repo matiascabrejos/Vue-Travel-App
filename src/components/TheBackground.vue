@@ -5,7 +5,7 @@
   >
     <div
       class="absolute top-0 w-full h-full bg-center bg-cover"
-      style='background-image: url("https://eleconomista.com.ar/wp-content/uploads/2019/06/airbnb_luxe_announcement.0.jpg");'
+      style='background-image: url("/images/7.jpg");'
     >
       <span
         id="blackOverlay"

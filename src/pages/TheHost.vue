@@ -6,7 +6,7 @@
     >
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style='background-image: url("https://www.territorysupply.com/wp-content/uploads/2020/11/best-airbnbs-georgia-900x600.jpg");'
+        style='background-image: url("/images/8.jpg");'
       >
         <span
           id="blackOverlay"

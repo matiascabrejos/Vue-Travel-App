@@ -7,7 +7,7 @@ import TheHome from './pages/TheHome.vue'
 import HomeCard from './components/HomeCard.vue'
 import HomeGrid from './components/HomeGrid.vue'
 import TheForm from './components/TheForm.vue'
-import MainSection from './components/MainSection.vue'
+import TheCheckIn from './pages/TheCheckIn.vue'
 import TheNavbar from './components/TheNavbar.vue'
 import TheBackground from './components/TheBackground.vue'
 import TheHost from './pages/TheHost.vue'
@@ -21,7 +21,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: TheHome },
     { path: '/home', component: TheHome },
-    { path: '/checkin', component: MainSection },
+    { path: '/checkin', component: TheCheckIn },
     { path: '/host', component: TheHost },
     { path: '/aboutus', component: AboutUs },
   ],
@@ -32,7 +32,7 @@ app.component('the-home', TheHome)
 app.component('home-card', HomeCard)
 app.component('home-grid', HomeGrid)
 app.component('the-form', TheForm)
-app.component('main-section', MainSection)
+app.component('the-check-in', TheCheckIn)
 app.component('the-navbar', TheNavbar)
 app.component('the-background', TheBackground)
 app.component('the-host', TheHost)
