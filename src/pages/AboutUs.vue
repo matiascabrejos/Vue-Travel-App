@@ -6,9 +6,9 @@
       </h2>
       <div class="flex items-center flex-wrap mb-20">
         <div class="w-full md:w-1/2 pr-10">
-          <h4 class="text-4xl text-gray-900 font-bold mb-3">TravelApp</h4>
+          <h4 class="text-4xl text-gray-900 font-bold mb-3">Travelify</h4>
           <p class="text-gray-900 mb-8">
-            TravelApp was born in 2007 when two Hosts welcomed three guests to
+            Travelify was born in 2007 when two Hosts welcomed three guests to
             their San Francisco home, and has since grown to 4 million Hosts who
             have welcomed more than 1 billion guest arrivals in almost every
             country across the globe. Every day, Hosts offer one-of-a-kind stays
@@ -29,7 +29,7 @@
           <h4 class="text-4xl text-gray-900 font-bold mb-3">Contact</h4>
           <p class="text-gray-900 mb-8">
             For general press inquiries or United States and North America media
-            requests, please get in touch at contact.press@travelapp.com.
+            requests, please get in touch at contact.press@travelifyapp.com.
           </p>
         </div>
         <div class="w-full md:w-1/2">
@@ -55,7 +55,7 @@
             ></path>
           </svg>
           <p class="leading-relaxed text-lg text-gray-900">
-            TravelApp is different from most brands. We're a community of
+            Travelify is different from most brands. We're a community of
             individuals, and yet there's a consistency holding us together
             through the values we share. We have a common belief in belonging,
             but everyone's expression of it will naturally always be a little

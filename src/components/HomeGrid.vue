@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center text-3xl text-gray-900 font-bold">Live Anywhere</h1>
+  <h1 class="text-center text-3xl text-gray-900 font-bold my-4">Live Anywhere</h1>
   <div
     class="
         p-10
