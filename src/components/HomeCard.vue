@@ -21,7 +21,7 @@
       class="
           border-2 border-white
           px-4
-          py-0
+          py-4
           rounded-lg
           transform
           transition

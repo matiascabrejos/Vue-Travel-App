@@ -13,6 +13,7 @@ import TheBackground from './components/TheBackground.vue'
 import TheHost from './pages/TheHost.vue'
 import AboutUs from './pages/AboutUs.vue'
 import TheFooter from './components/TheFooter.vue'
+import NotFound from './pages/NotFound.vue'
 
 const app = createApp(App)
 
@@ -24,6 +25,7 @@ const router = createRouter({
     { path: '/checkin', component: TheCheckIn },
     { path: '/host', component: TheHost },
     { path: '/aboutus', component: AboutUs },
+    { path:'/:notFound(.*)', component: NotFound },
   ],
   linkActiveClass: 'active',
 })
@@ -38,6 +40,7 @@ app.component('the-background', TheBackground)
 app.component('the-host', TheHost)
 app.component('about-us', AboutUs)
 app.component('the-footer', TheFooter)
+app.component('not-found', NotFound)
 
 app.use(router)
 

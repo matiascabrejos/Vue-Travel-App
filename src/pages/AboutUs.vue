@@ -41,7 +41,7 @@
         </div>
       </div>
     </section>
-    <section class="text-gray-900 body-font border-t border-gray-200">
+    <section class="text-gray-900 body-font">
       <div class="container px-5 pb-8 mx-auto">
         <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
           <svg
