@@ -19,7 +19,7 @@ const app = createApp(App)
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', component: TheHome },
+    { path: '/', redirect: '/home' },
     { path: '/home', component: TheHome },
     { path: '/checkin', component: TheCheckIn },
     { path: '/host', component: TheHost },
